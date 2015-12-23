@@ -1,0 +1,28 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>轮播</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<style type="text/css">
+		html,body,div,img{margin:0;padding: 0;}
+		.slide_con{margin: 0 auto;}
+	</style>
+	<body>
+		<div id="slide" class="slide_con">
+			<img src="img/1.jpg" alt="图片" title="图片描述" />
+			<img src="img/2.jpg" alt="图片" title="图片描述" />
+			<img src="img/3.jpg" alt="图片" title="图片描述" />
+			<img src="img/4.jpg" alt="图片" title="图片描述" />
+			<img src="img/3.jpg" alt="图片" title="图片描述" />
+			<img src="img/4.jpg" alt="图片" title="图片描述" />
+			<div id="slide-pre-btn"></div>
+			<div id="slide-next-btn"></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/slide.js"></script>
+	<script type="text/javascript">
+		new slide.slideFn("#slide");
+	</script>
+</html>
